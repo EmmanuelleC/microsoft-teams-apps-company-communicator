@@ -5,26 +5,26 @@
   "id": "148a66bb-e83d-425a-927d-09f4299a9274",
   "packageName": "com.microsoft.teams.companycommunicator",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "SPIE CityNetworks",
+    "websiteUrl": "https://spie.sharepoint.com/sites/intraspie_spiefr_citynetworks",
+    "privacyUrl": "https://atspie.spie.com/fr/groupe/mentions-legales",
+    "termsOfUseUrl": "https://atspie.spie.com/fr/groupe/mentions-legales"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Company Communicator",
-    "full": "Company Communicator"
+    "short": "Infos SPIE CityNetworks",
+    "full": "Infos SPIE CityNetworks"
   },
   "description": {
-    "short": "Broadcast messages to multiple teams and people in one go",
-    "full": "Broadcasts messages to multiple teams and individuals through channel posts and chat messages"
+    "short": "Retrouvez l’actualité de SPIE CityNetworks en un clic !",
+    "full": "Retrouvez l’actualité de SPIE CityNetworks en un clic !"
   },
   "accentColor": "#64A2CC",
   "bots": [{
-    "botId": "<<botId>>",
+    "botId": "004a2189-7185-4e4a-ba96-fc810847c711",
     "scopes": [
       "personal",
       "team"
@@ -37,6 +37,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "scnfrcommunicator.azurewebsites.net"
   ]
 }
