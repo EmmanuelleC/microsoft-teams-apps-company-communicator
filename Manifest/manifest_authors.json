@@ -5,33 +5,33 @@
   "id": "1c07cd26-a088-4db8-8928-ace382fa219f",
   "packageName": "com.microsoft.teams.companycommunicator.authors",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+     "name": "SPIE CityNetworks",
+    "websiteUrl": "https://https://spie.sharepoint.com/sites/intraspie_spiefr_citynetworks",
+    "privacyUrl": "https://atspie.spie.com/fr/groupe/mentions-legales",
+    "termsOfUseUrl": "https://atspie.spie.com/fr/groupe/mentions-legales"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Company Communicator (Authors)",
-    "full": "Company Communicator (Authors)"
+    "short": "Infos SPIE CityNetworks (Authors)",
+    "full": "Infos SPIE CityNetworks (Authors)"
   },
   "description": {
-    "short": "Broadcast messages to multiple teams and people in one go",
-    "full": "Broadcasts messages to multiple teams and individuals through channel posts and chat messages"
+    "short": "Retrouvez l’actualité de SPIE CityNetworks en un clic !",
+    "full": "Retrouvez l’actualité de SPIE CityNetworks en un clic !"
   },
   "accentColor": "#64A2CC",
   "configurableTabs": [{
-    "configurationUrl": "https://<<appDomain>>/configtab",
+    "configurationUrl": "https://scnfrcommunicator.azurewebsites.net/configtab",
     "canUpdateConfiguration": true,
     "scopes": [
       "team"
     ]
   }],
   "bots": [{
-    "botId": "<<botId>>",
+    "botId": "3031c84b-2e0d-4bcb-904e-19d7b80dbc75",
     "scopes": [
       "team"
     ],
@@ -43,10 +43,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "scnfrcommunicator.azurewebsites.net"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>"
+    "id": "3031c84b-2e0d-4bcb-904e-19d7b80dbc75",
+    "resource": "api://scnfrcommunicator.azurewebsites.net"
   }
 }
